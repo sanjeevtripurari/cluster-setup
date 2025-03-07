@@ -1,0 +1,17 @@
+{
+    "aws": {
+      "resource_type": "aws_instance",
+      "cpu_key": "vcpus",
+      "memory_key": "memory",
+      "disk_key": "disk_size",
+      "machine_type_key": "instance_type"
+    },
+    "azure": {
+      "resource_type": "azurerm_virtual_machine",
+      "cpu_key": "vm_size",
+      "memory_key": "memory",
+      "disk_key": "os_disk_size_gb",
+      "machine_type_key": "size"
+    }
+  }
+  
